@@ -1,0 +1,288 @@
+[INFO][2017-01-12 19:53:37,104][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2017-01-12 19:53:37,222][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Jan 12 19:53:37 CST 2017]; root of context hierarchy
+[INFO][2017-01-12 19:53:37,267][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2017-01-12 19:53:37,381][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2017-01-12 19:53:37,631][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[ERROR][2017-01-12 19:53:37,801][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-01-12 19:53:37,859][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-01-12 19:53:38,435][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[INFO][2017-01-12 19:53:38,443][org.hibernate.Version]HHH000412: Hibernate Core {4.1.7.Final}
+[INFO][2017-01-12 19:53:38,444][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-01-12 19:53:38,446][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-01-12 19:53:38,884][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO][2017-01-12 19:53:38,917][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2017-01-12 19:53:38,923][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2017-01-12 19:53:39,134][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2017-01-12 19:53:39,134][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2017-01-12 19:53:39,138][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2017-01-12 19:53:39,164][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: mybatis.t_user
+[INFO][2017-01-12 19:53:39,165][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [user_name, user_id, user_age]
+[INFO][2017-01-12 19:53:39,165][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2017-01-12 19:53:39,165][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2017-01-12 19:53:39,416][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2017-01-12 19:53:39,499][org.springframework.orm.hibernate4.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2017-01-12 19:53:37",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:2003498679, ConnectTime:"2017-01-12 19:53:38", UseCount:2, LastActiveTime:"2017-01-12 19:53:39"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO][2017-01-12 19:53:39,529][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 2425 ms
+[INFO][2017-01-12 19:53:39,551][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springMvc': initialization started
+[INFO][2017-01-12 19:53:39,565][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'springMvc-servlet': startup date [Thu Jan 12 19:53:39 CST 2017]; parent: Root WebApplicationContext
+[INFO][2017-01-12 19:53:39,565][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2017-01-12 19:53:40,300][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/userController/showUser] onto handler 'userController'
+[INFO][2017-01-12 19:53:40,301][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/userController/showUser.*] onto handler 'userController'
+[INFO][2017-01-12 19:53:40,301][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/userController/showUser/] onto handler 'userController'
+[INFO][2017-01-12 19:53:40,326][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springMvc': initialization completed in 775 ms
+[INFO][2017-01-12 19:55:07,326][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'springMvc-servlet': startup date [Thu Jan 12 19:53:39 CST 2017]; parent: Root WebApplicationContext
+[INFO][2017-01-12 19:55:07,347][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Jan 12 19:53:37 CST 2017]; root of context hierarchy
+[INFO][2017-01-12 19:55:07,352][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO][2017-01-12 19:56:54,206][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2017-01-12 19:56:54,295][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Jan 12 19:56:54 CST 2017]; root of context hierarchy
+[INFO][2017-01-12 19:56:54,341][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2017-01-12 19:56:54,455][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[ERROR][2017-01-12 19:56:54,468][org.springframework.web.context.ContextLoader]Context initialization failed
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 17 in XML document from class path resource [spring-hibernate.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 17; columnNumber: 100; 对实体 "characterEncoding" 的引用必须以 ';' 分隔符结尾。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5068)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5584)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 17; columnNumber: 100; 对实体 "characterEncoding" 的引用必须以 ';' 分隔符结尾。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:890)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanAttribute(XMLNSDocumentScannerImpl.java:439)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:255)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 26 more
+[INFO][2017-01-12 19:56:54,492][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Jan 12 19:56:54 CST 2017]; root of context hierarchy
+[WARN][2017-01-12 19:56:54,494][org.springframework.web.context.support.XmlWebApplicationContext]Exception thrown from ApplicationListener handling ContextClosedEvent
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: Root WebApplicationContext: startup date [Thu Jan 12 19:56:54 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:344)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:331)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:836)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5115)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5779)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:159)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN][2017-01-12 19:56:54,494][org.springframework.web.context.support.XmlWebApplicationContext]Exception thrown from LifecycleProcessor on context close
+java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: Root WebApplicationContext: startup date [Thu Jan 12 19:56:54 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:357)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:836)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5115)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5779)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:159)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO][2017-01-12 19:57:54,049][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2017-01-12 19:57:54,170][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Jan 12 19:57:54 CST 2017]; root of context hierarchy
+[INFO][2017-01-12 19:57:54,214][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2017-01-12 19:57:54,327][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[ERROR][2017-01-12 19:57:54,339][org.springframework.web.context.ContextLoader]Context initialization failed
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 17 in XML document from class path resource [spring-hibernate.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 17; columnNumber: 100; 对实体 "characterEncoding" 的引用必须以 ';' 分隔符结尾。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5068)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5584)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 17; columnNumber: 100; 对实体 "characterEncoding" 的引用必须以 ';' 分隔符结尾。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:890)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanAttribute(XMLNSDocumentScannerImpl.java:439)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:255)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 26 more
+[INFO][2017-01-12 19:57:54,377][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Jan 12 19:57:54 CST 2017]; root of context hierarchy
+[WARN][2017-01-12 19:57:54,379][org.springframework.web.context.support.XmlWebApplicationContext]Exception thrown from ApplicationListener handling ContextClosedEvent
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: Root WebApplicationContext: startup date [Thu Jan 12 19:57:54 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:344)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:331)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:836)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5115)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5779)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:159)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN][2017-01-12 19:57:54,397][org.springframework.web.context.support.XmlWebApplicationContext]Exception thrown from LifecycleProcessor on context close
+java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: Root WebApplicationContext: startup date [Thu Jan 12 19:57:54 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:357)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:836)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5115)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5779)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:159)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO][2017-01-12 19:58:28,378][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2017-01-12 19:58:28,461][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Jan 12 19:58:28 CST 2017]; root of context hierarchy
+[INFO][2017-01-12 19:58:28,515][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2017-01-12 19:58:28,622][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2017-01-12 19:58:28,942][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[ERROR][2017-01-12 19:58:29,101][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-01-12 19:58:29,143][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-01-12 19:58:29,808][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[INFO][2017-01-12 19:58:29,814][org.hibernate.Version]HHH000412: Hibernate Core {4.1.7.Final}
+[INFO][2017-01-12 19:58:29,815][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-01-12 19:58:29,817][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-01-12 19:58:30,269][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO][2017-01-12 19:58:30,296][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2017-01-12 19:58:30,301][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2017-01-12 19:58:30,521][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2017-01-12 19:58:30,521][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2017-01-12 19:58:30,525][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2017-01-12 19:58:30,543][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: mybatis.t_user
+[INFO][2017-01-12 19:58:30,544][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [user_name, email, ageage, create_time, qqno, user_id, phoneno, namename, user_age]
+[INFO][2017-01-12 19:58:30,544][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2017-01-12 19:58:30,544][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2017-01-12 19:58:30,546][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2017-01-12 19:58:30,644][org.springframework.orm.hibernate4.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2017-01-12 19:58:29",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:123979423, ConnectTime:"2017-01-12 19:58:30", UseCount:2, LastActiveTime:"2017-01-12 19:58:30"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO][2017-01-12 19:58:30,687][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 2308 ms
+[INFO][2017-01-12 19:58:30,718][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springMvc': initialization started
+[INFO][2017-01-12 19:58:30,721][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'springMvc-servlet': startup date [Thu Jan 12 19:58:30 CST 2017]; parent: Root WebApplicationContext
+[INFO][2017-01-12 19:58:30,721][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2017-01-12 19:58:31,104][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/userController/showUser] onto handler 'userController'
+[INFO][2017-01-12 19:58:31,104][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/userController/showUser.*] onto handler 'userController'
+[INFO][2017-01-12 19:58:31,104][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/userController/showUser/] onto handler 'userController'
+[INFO][2017-01-12 19:58:31,131][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springMvc': initialization completed in 413 ms
+[INFO][2017-01-12 19:58:43,847][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'springMvc-servlet': startup date [Thu Jan 12 19:58:30 CST 2017]; parent: Root WebApplicationContext
+[INFO][2017-01-12 19:58:43,868][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Jan 12 19:58:28 CST 2017]; root of context hierarchy
+[INFO][2017-01-12 19:58:43,872][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed

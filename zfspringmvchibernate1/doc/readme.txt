@@ -1,0 +1,1 @@
+框架sprinigmvc4.1.6+spring4.1.6+hibernate4.1.7+maven整合
